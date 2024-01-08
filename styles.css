@@ -1,0 +1,90 @@
+/**
+Palette: https://scrimba.com/links/hometown-palette
+RED: #E63946
+LIGHT: #F1FAEE
+AQUA: #A8DADC
+LIGHT BLUE: #457B9D
+DARK BLUE: #1D3557
+
+*/
+
+body {
+    margin: 0;
+    text-align: center;
+}
+.top{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    margin: 0 auto 0 auto;
+    padding-bottom: 0;
+    background-image: url(images/lodz.jpeg);
+    background-size: cover;
+ background-position: center; 
+ background-repeat: no-repeat;
+ height: 400px;
+}
+
+#visit{
+    width: 200px;
+border: 0px -10px;
+    border-radius: 10px 10px;
+    background-color: #1D3557;
+    color: white;
+}
+#tytul{
+    width: 400px;
+    border: 5px solid #457B9D;
+    border-radius: 20px 20px;
+    background-color: #457B9D;
+    padding: 8px 40px;
+    color: white;
+    font-size: 20px;
+}
+
+
+
+.fota{
+    width: 120px;
+    border-radius: 50%;
+}
+.naglowek{
+    font-weight: bold;
+}
+#przerwa{
+    padding-top: 20px;
+}
+.ACTIVITIES{
+    color: #1D3557;
+    padding-top: 0;
+    margin-top: -20px;
+    background-color: #F1FAEE;
+    padding-bottom: 30px;
+}
+#poszczegolne{
+    display: flex;
+    justify-content: space-around;
+}
+.zwezenie{
+    width: 200px;
+}
+#przewodnik{
+    background-color: #A8DADC;
+    display: flex;
+    width: 450px;
+    height: 270px;
+    align-items: center;
+    justify-content: center;
+    color: #1D3557;
+    border-radius: 20px;
+    margin: 40px auto;
+    border-bottom: 8px solid #1D3557
+}
+#omnie{
+    font-style: italic;
+}
+#przewo{
+    border-radius: 10px;
+    margin: 0px 10px;
+}
